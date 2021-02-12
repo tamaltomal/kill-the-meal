@@ -1,0 +1,72 @@
+main {
+  width: 70%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#search-bar {
+  margin: 30px auto;
+  width: 380px;
+}
+
+#dishes {
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.dish {
+  background-color: salmon;
+  float: left;
+  width: 22%;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+.dish-name {
+  text-align: center;
+  margin: 0;
+  padding: 10px 10px;
+}
+
+.dish-image {
+  border-radius: 5px;
+  width: 100%;
+  margin: 0;
+}
+
+#search-item {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+#recipe {
+  display: none;
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: salmon;
+  padding-bottom: 10px;
+}
+
+#recipe img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#recipe h4,
+h2 {
+  padding-left: 20px;
+}
+
+#recipe li {
+  list-style: square;
+  padding-left: 20px;
+}
